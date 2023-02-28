@@ -146,3 +146,6 @@ export class PokemonListClass extends React.Component {
 //отрисовка - когда в DOM чет поменялос
 
 // https://beta.reactjs.org/learn/render-and-commit
+
+//componentDidCatch
+//DidUnmount
