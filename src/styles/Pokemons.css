@@ -1,0 +1,35 @@
+.pokemon {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-color: #069A15;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.pokemon__name {
+	text-align: center;
+	font-size: 19px;
+	color: white;
+	font-weight: bold;
+	transform:rotate(-8deg)
+	
+}
+
+/*Почему не задаются стили картинке? */
+.pokemon__image{
+	border-radius: 50%;
+}
+
+
+.pokemon__button {
+	width: 96px;
+	height: 19px;
+	background-color: #FFF500;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
